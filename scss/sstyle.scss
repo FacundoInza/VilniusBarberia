@@ -1,0 +1,18 @@
+@import "page/pagina";
+@import "Galeria/galeria";
+@import "contacto/contacto";
+@import "media/media";
+@import "contacto/contacto";
+@import "barberia/barberia";
+@import "home/index";
+
+
+/* KEYFFRAMES */
+.animate__animated.animate__fadeInDown {
+    --animate-duration: 3s;
+}
+
+  .animate__animated.animate__fadeInLeft {
+    --animate-duration: 3s;
+    --animate-delay: 2s;
+  }

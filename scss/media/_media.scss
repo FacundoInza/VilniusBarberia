@@ -1,0 +1,22 @@
+@media only screen and (max-width:1200px ) {
+
+    body{
+        background-image: url(../png/fondo.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        min-width: 100%;
+    }
+
+    .container h1 {
+        font-size: 60%;
+    }
+  
+}
+
+@media only screen and (max-width:576px )
+ {
+    .container h1 {
+        font-size: 40%;
+    }
+    
+ }
