@@ -6,17 +6,12 @@
         background-repeat: no-repeat;
         min-width: 100%;
     }
-
-    .container h1 {
-        font-size: 60%;
-    }
-  
-}
-
-@media only screen and (max-width:576px )
- {
-    .container h1 {
-        font-size: 40%;
+    #VILNIUS h1 {
+        font-size: 100px;
     }
     
- }
+    #BARBERIA h1 {
+        font-size: 40px;
+    }
+}
+

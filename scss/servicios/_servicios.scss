@@ -1,0 +1,20 @@
+#servicios {
+    box-shadow: 0px 0px 25px #222;
+    backdrop-filter: blur(10px);
+    height: 100%;
+    border-top: solid black 5px ;
+    border-bottom: solid black 5px ;
+    padding: 20px;
+    font-family:'Caveat', sans-serif;
+    font-size:120%;
+    h3{
+        margin: 20px;
+    }
+    ul{
+        margin: 20px;
+    }
+    li{
+        margin: 30px;
+
+    }
+}

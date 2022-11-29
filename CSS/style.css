@@ -20,8 +20,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  font-size: 180px; }
+  min-height: 100vh; }
 
 footer {
   width: 100%;
@@ -60,9 +59,10 @@ footer {
   grid-template-areas: "a1 a2 a3" "a4 a2 a5" "a4 a6 a5";
   width: 90%;
   height: 50%;
-  justify-items: space-between; }
+  justify-items: space-between;
+  border: solid white 5px; }
 
-a img {
+img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
@@ -84,6 +84,16 @@ a img {
 
 .grid6 {
   grid-area: a6; }
+
+img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0); }
 
 #contacto {
   height: 600px;
@@ -118,12 +128,10 @@ input {
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 100%; }
-  .container h1 {
-    font-size: 60%; } }
-
-@media only screen and (max-width: 576px) {
-  .container h1 {
-    font-size: 40%; } }
+  #VILNIUS h1 {
+    font-size: 100px; }
+  #BARBERIA h1 {
+    font-size: 40px; } }
 
 #contacto {
   height: 600px;
@@ -158,10 +166,27 @@ video {
 
 #VILNIUS {
   width: 100%;
-  height: 170px; }
+  height: 170px;
+  font-size: 180px; }
 
 #BARBERIA {
-  font-size: 50%; }
+  font-size: 90px; }
+
+#servicios {
+  box-shadow: 0px 0px 25px #222;
+  backdrop-filter: blur(10px);
+  height: 100%;
+  border-top: solid black 5px;
+  border-bottom: solid black 5px;
+  padding: 20px;
+  font-family: 'Caveat', sans-serif;
+  font-size: 120%; }
+  #servicios h3 {
+    margin: 20px; }
+  #servicios ul {
+    margin: 20px; }
+  #servicios li {
+    margin: 30px; }
 
 /* KEYFFRAMES */
 .animate__animated.animate__fadeInDown {

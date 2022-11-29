@@ -8,10 +8,10 @@
     width: 90%;
     height: 50%;
     justify-items: space-between;
-
+    border: solid white 5px;
 }
 
-a img {
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -33,4 +33,15 @@ a img {
 }
 .grid6{
     grid-area: a6;
+}
+
+img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+ img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
